@@ -1,7 +1,7 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
   siteUrl: 'https://nisa-note-jp.vercel.app',
-  generateRobotsTxt: true,
+  generateRobotsTxt: false,
   robotsTxtOptions: {
     additionalSitemaps: ['https://nisa-note-jp.vercel.app/sitemap.xml'],
   },
